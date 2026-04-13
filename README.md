@@ -135,7 +135,7 @@ python -m streamlit run app/app.py
 
 ### 🔹 Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/dashboard5.png)
 
 ### 🔹 Prediction (Healthy)
 
