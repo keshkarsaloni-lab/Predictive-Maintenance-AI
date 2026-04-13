@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load data
-df = pd.read_csv('data/data.csv')
+df = pd.read_csv('data/raw/data.csv')
 
 print("Before Feature Engineering:")
 print(df.head())

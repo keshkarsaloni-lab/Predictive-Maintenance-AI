@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 # Load data
-df = pd.read_csv('data/data.csv')
+df = pd.read_csv('data/raw/data.csv')
 
 # Feature Engineering (same as before)
 df['temp_vibration_ratio'] = df['temperature'] / df['vibration']

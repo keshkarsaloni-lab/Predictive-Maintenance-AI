@@ -3,7 +3,7 @@ import joblib
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load data
-df = pd.read_csv('data/data.csv')
+df = pd.read_csv('data/raw/data.csv')
 
 # Feature Engineering (same as training)
 df['temp_vibration_ratio'] = df['temperature'] / df['vibration']
